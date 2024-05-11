@@ -8,6 +8,31 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="Dform flex flex-col w-full h-full bg-yellow-300" id="text-form">
+        <p class="text-center text-4xl justify-center font-bold">Set a Countdown</p>
+        <form action="submit" class="p-4 m-auto flex flex-col col-span-2 gap-5 text-xl ">
+            <label for="minutes">Enter Minutes</label>
+            <input type="text" id="min" name="minutes" class="border-2 bg-red-50">
+            <label for="seconds">Enter seconds</label>
+            <input type="text" id="sec" name="seconds" class="border-2 bg-red-50">
+            <input type="submit" name="submit" id="submit" class="bg-red-500 px-4 py-2 m-auto w-fit rounded-md hover:bg-red-600">
+        </form>
+    </div>
+    <div class="resDiv bg-blue-400 text-4xl p-4 flex flex-col gap-4">
+        <div class="hdiv text-5xl font-semibold text-center">
+            Your Countdown ends in:
+        </div>
+        <div class="time text-center font-bold">
+            hh:mm:ss
+        </div>
+        <div class="buttons flex gap-10 justify-center">
+            <button class="bg-green-500 rounded-md p-4">Stop</button>
+            <button class="bg-purple-600 rounded-md p-4">New</button>
+        </div>
+        
+    </div>
+    
     
 </body>
+<script src="index.js"></script>
 </html>
