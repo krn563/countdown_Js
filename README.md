@@ -34,13 +34,13 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/your_username/Countdown_JS.git
+   git clone https://github.com/krn563/countdown_JS.git
    ```
 
 2. **Navigate to the Project Directory**
 
    ```sh
-   cd Countdown_JS
+   cd countdown_JS
    ```
 
 ## Usage
